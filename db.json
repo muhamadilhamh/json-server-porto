@@ -1,9 +1,270 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "porto": [
+    {
+      "id": 1,
+      "judul": "SISTEM INFORMASI GEOGRAFIS UNTUK SEBARAN KULINER TRADISIONAL INDONESIA BERBASIS PROGRESSIVE WEB APPLICATION",
+      "deskripsi": "Perkembangan kuliner Indonesia yang bervariatif membuat kuliner tradisional mulai jarang ditemui sehingga memerlukan penyesuaian terutama dalam hal pemasaran produk kuliner. Sistem informasi geografis dapat digunakan sebagai salah satu cara untuk mengetahui informasi spesifik dari kuliner tradisional lalu meningkatkan antusias untuk berkunjung ke daerah tersebut. <br/> <br/> Metode pengembangan aplikasi yang digunakan adalah research and development (R&D) model ADDIE yang berpusat pada evaluasi sehingga metode ini menjadi sangat efektif. Tahapan yang dilalui mulai dari analyze, design, development, hingga implementation atau evaluation. Sementara aplikasi yang dikembangkan berbasis progressive web application (PWA). <br/> <br/> Aplikasi ini memberikan kesempatan kepada pengguna untuk memperoleh informasi yang tidak hanya berbentuk tulisan tetapi juga informasi visual lokasi geografis untuk memudahkan mengetahui asal wilayah dari kuliner tradisional Indonesia.",
+      "linkWebsite": "https://kulineran-tradisional.herokuapp.com/",
+      "linkFigma":"",
+      "linkPrototype":"",
+      "gambar": [ 
+        "https://i.postimg.cc/mrmw2LHX/area.png",
+        "https://i.postimg.cc/nV3JbBrB/dashboard-laptop.png",
+        "https://i.postimg.cc/C53JTcqw/halaman-list-kuliner.png"
+      ],
+      "stack":[
+        "laravel8", "Figma", "MySQL", "Bootstrap", "Github"
+      ],
+      "tags":[
+        "Back End", "Front End"
+      ]
+    },
+    {
+      "id": 2,
+      "judul": "Webiste Prabu 2021",
+      "deskripsi": "Penerimaan Mahasiswa Baru yang biasa disebut dengan PRABU merupakan salah satu agenda yang sudah berjalan lama dan merupakan momentum penerimaan mahasiswa baru Universitas Padjadjaran, baik oleh pihak Rektorat maupun pihak Keluarga Mahasiswa (KEMA). <br/> <br/> Fitur utama dalam website ini yaitu Live streaming / Content Acara, Infografis & Hiburan, dan Penugasan. Fitur utama Live streaming mereferensi pada <a href='https://www.youtube.com/' target='_blank'>Youtube</a>  , Fitur utama selanjutnya Infografis & Hiburan mereferensi pada <a href='https://whocares.bigbump.fr/' target='_blank'>whocares</a> , <a href='https://witchernetflix.com/' target='_blank'>witchernetflix</a>  , dan Fitur utama terakhir mereferensi pada konsep peta dora yang teknis di dalamnya seperti pada <a href='https://kahoot.it/' target='_blank'>kahoot</a> , <a href='https://quizizz.com/' target='_blank'>quizizz</a>, <a href='https://classroom.google.com' target='_blank'>classroom</a> . <br/> <br/> Setelah melakukan berbagai macam research berdasarkan referensi web di atas dan material design yang sekiranya dapat diimplementasikan saat proses pengembangan, selanjunya proses didefinisikan kedalam low fidelity lalu high fidelity. <br/> <br/> Pada proses pengembangan vue3 vite dipilih oleh project manager <br/> Pada proses pengembangan back end dan front end dipisah dan task yang di dapat saya yakni fitur live streaming / content acara, beberapa penugasan pada Cakrawala, beberapa halaman lainnya, dan mengonsumsi API",
+      "linkWebsite": "https://prabu-2021.netlify.app/",
+      "linkFigma" : "https://www.figma.com/file/AV9U5ggsgQNfQiwUGOEo3w/Prabu-team-library?node-id=315%3A6",
+      "linkPrototype":"",
+      "gambar": [ 
+        "https://i.postimg.cc/13vv3TJM/menu-peta.png",
+        "https://i.postimg.cc/wTH2cHr0/penugasan.png",
+        "https://i.postimg.cc/0jvYfdVb/home.png"
+      ],
+      "stack":[
+        "Vue3 Vite", "Figma", "Node Js", "Bootstrap", "Github"
+      ],
+      "tags":[
+        "UI/UX", "Front End"
+      ]
+    },
+    {
+      "id": 3,
+      "judul": "Website Kobaja Nusantara Prima",
+      "deskripsi": "Kobaja Nusantara Prima merupakan sebuah perusahaan yang menawarkan logam dengan kualitas terbaik di industri baja termasuk namun tidak terbatas pada industri besi, baja, paduan ferro, dan pengecoran. <br/> <br/> Website ini berfungsi untuk profil perusahaan. Task yang di dapat saya berupa membuat tampilan seluruh halaman website",
+      "linkWebsite": "https://kobajaweb.netlify.app/",
+      "linkFigma":"",
+      "linkPrototype":"",
+      "gambar": [ 
+        "https://i.postimg.cc/R0jCbSK6/yg-pertama.png",
+        "https://i.postimg.cc/kMw32MGQ/yg-kedua.png",
+        "https://i.postimg.cc/x13F4tmK/yg-ketiga.png"
+      ],
+      "stack":[
+        "Vue2", "Figma", "Vuetify", "Github"
+      ],
+      "tags":[
+        "Front End"
+      ]
+    },
+    {
+      "id": 4,
+      "judul": " Website Frema",
+      "deskripsi": "Frema (Freelancer Mahasiswa) adalah aplikasi yang mempertemukan freelancer ( pekerja/ penyedia jasa ) dengan klien yang membutuhkan jasa tertentu untuk mengatasi permasalahan yang dibutuhkan berbasis website. Fungsi utama dari aplikasi Frema adalah mempertemukan freelancer ( pekerja / penyedia jasa ) dengan klien yang membutuhkan jasa tertentu untuk mengatasi permasalahan yang dibutuhkan. Portofilo dan Hire job adalah fitur utama dalam website ini <br/> <br/> Dalam tahap perencanaan metode Design Thinking digunakan mulai dari Empathize, Define, Ideate, Prototype, Test. Tahap Empathize menghasilkan user journey dan user pesona. Tahap Define menghasilkan Value Proposition Canvas (Pains, Gains, Job to be done) dan Need Statements. Tahap Ideate menghasilkan user flow. Tahap Prototype menghasilkan wireframe low fidelity yang selanjutnya pada proses pengembangan membuat dokumentasi UML dengan 7 jenis UML. Pada tahap ini pula high fidelity desain terbentuk yang selanjunya diimplementasi pada proses pengembangan. Tahap Test digunakan pengujian black-box dan user experience Quistionneire (UEQ) <br/> <br/> Task yang di dapat saya berupa memantau dan membantu tim yang diorganisir menggunakan scrum, mengimplementasi desain UI/UX, dan mengonsumsi Api dari Back end " ,
+      "linkWebsite": "https://app-frema.herokuapp.com/",
+      "linkFigma":"",
+      "linkPrototype":"",
+      "gambar": [ 
+        "https://i.postimg.cc/hjYCmGzj/gambar-1.png",
+        "https://i.postimg.cc/Gtk51Ctm/gambar-2.png",
+        "https://i.postimg.cc/9QfJLTdM/gambar-3.png"
+      ],
+      "stack":[
+        "Vue3", "Figma", "Laravel", "Mdbootstrap", "Github"
+      ],
+      "tags":[
+        "Project Manager", "Front End"
+      ]
+    },
+    {
+      "id": 5,
+      "judul": "Website Kampus Indonesia Akademik",
+      "deskripsi": "Kampus Indonesia Academy merupakan cabang dari product/service situs resmi Kampus Indonesia. Disini, Kampus Indonesia Academy akan berfokus pada pengembangan skill karir dengan serangkaian course yang ditawarkan. Tujuan dari Kampus Indonesia Academy adalah untuk memberikan audiens cara yang sederhana dan intuitif dalam mendukung persiapan karir mereka. <br/> <br/> Dalam tahap perencanaan metode Design Thinking digunakan mulai dari Empathize, Define, Ideate, Prototype, Test. Test tidak digunakan pada periode ini. Tahap Empathize menghasilkan user journey dan user pesona. Tahap Define menghasilkan Target product constraints, features overview. Tahap Ideate menghasilkan struktur navigasi. Tahap Prototype menghasilkan wireframe low fidelity yang selanjutnya pada proses pengembangan membuat dokumentasi UML dengan 4 jenis UML. Pada tahap ini pula high fidelity desain terbentuk yang selanjunya diimplementasi pada proses pengembangan. <br/> <br/> Task yang di dapat saya berupa melakukan reaserch dengan mengikuti metode Design Thinking, membuat beberapa halaman wireframe dan melakukan proses pengembangan dengan mengimplementasikan desain ui/ux yang telah terbentuk ",
+      "linkWebsite": "https://kampusindonesiaacademy.netlify.app/",
+      "linkFigma":"https://www.figma.com/file/67IWrXqGm38bRM3G1EEvba/Wireframe-laporan-magang?node-id=0%3A1",
+      "linkPrototype":"",
+      "gambar": [ 
+        "https://i.postimg.cc/G3xfzv80/kampus-indonesia.png",
+        "https://i.postimg.cc/Cxz6FtvY/kampus-indonesia-2.png",
+        "https://i.postimg.cc/NjSCL4VX/kampus-indonesia-3.png"
+      ],
+      "stack":[
+        "Bootstrap", "Figma", "Github"
+      ],
+      "tags":[
+        "UI/UX", "Front End"
+      ]
+    },
+    {
+      "id": 6,
+      "judul": "Sound Track",
+      "deskripsi": "Sound Track merupakan aplikasi berbasis website yang bertujuan sebagai music player yang dapat didengar oleh semua orang",
+      "linkWebsite": "https://sound-track.netlify.app/",
+      "linkFigma":"",
+      "linkPrototype":"",
+      "gambar": [ 
+        "https://i.postimg.cc/qqf3Nkx3/musik-1.png",
+        "https://i.postimg.cc/Rhcnfjgb/image-2.png",
+        ""
+      ],
+      "stack":[
+        "Vue2", "Vuetify" , "Github"
+      ],
+      "tags":[
+        "Front End"
+      ]
+    },
+    {
+      "id": 7,
+      "judul": "My Pets",
+      "deskripsi": "MyPets merupakan aplikasi berbasis website yang bertujuan untuk memudahkan pencarian informasi mengenai hewan peliharaan terutama anjing dan kucing. Selain ini aplikasi ini diharapkan juga dapat membantu para pengguna yang ingin mengadopsi hewan peliharaan dan ingin mendata riwayat vaksin hewan peliharaan mereka. <br/> <br/> MyPets menyediakan berbagai macam informasi mengenai hewan peliharaan yang sangat berguna. Selain menyediakan informasi tentang hewan tersebut, MyPets juga menyediakan informasi seperti cara perawatan, tips, karakteristik, dan masih banyak lagi. MyPets juga menyediakan fitur tambahan yaitu menghitung umur hewan peliharaan ke dalam santuan umur hidup manusia. <br/> <br/> Dalam tahap perencanaan metode SCRUM - AGILE digunakan. Task yang saya dapatkan pertama melakukan reaserch mengenai kebiasaan pengguna yang didefinikan ke dalam Customer Journey Map. Lalu mencari referensi website sejenis untuk dilakukan Benchmark seperti  <a href='http://www.age-converter.com/' target='_blank'>age-converter</a>, <a href='https://www.petfinder.com/cats/' target='_blank'>Informasi Hewan</a>, dan <a href='https://www.adoptapet.com/' target='_blank'>Adopsi Hewan</a> <br/> <br/> Selanjutnya mendefiniskan hasil reaserch kedalam struktur navigasi, use case, dan activity diagram. Selanjutnya dibuat low fidelity lalu high fidelity sebagai acuan dalam pengembangan aplikasi. Dalam pengembangan aplikasi untuk mengimplementasi UI/UX,  saya menggunakan Vue 2 dan Vuetify",
+      "linkWebsite": "https://animox-mypets.netlify.app/",
+      "linkFigma":"https://www.figma.com/file/vKw3sntLOv9bznosORrqNv/PPL?node-id=1%3A3",
+      "linkPrototype":"",
+      "gambar": [ 
+        "https://i.postimg.cc/CxLvBjGG/Fire-Shot-Capture-282-Home-Mypets-animox-mypets-netlify-app.png",
+        "https://i.postimg.cc/85Xb83Js/Frame-1-15.png",
+        "https://i.postimg.cc/65hjpHv6/my-pets.png"
+      ],
+      "stack":[
+        "Vue2","Figma","Laravel","MySQL","Github"
+      ],
+      "tags":[
+        "UI/UX", "Front End"
+      ]
+    },
+    {
+      "id": 8,
+      "judul": "Covid Match",
+      "deskripsi": "Covid Mach merupakan aplikasi mobile Edukasi Interaktif yang dapat  membantu memberikan solusi pada pengguna untuk membekali diri dengan pengetahuan  mengenai covid-19 yang dikemas dalam bentuk permainan. Pengguna diharuskan untuk  mencocokan beberapa gambar yang sama dan setelah itu akan muncul seputar informasi  mengenai covid-19. Permainan terdiri dari beberapa level yang tingkat kesulitannya akan  disesuaikan dari level yang dicapai. Informasi mengenai covid-19 ini berupa hoaks atau fakta,  fun fact, dan multiple choice. Aplikasi ini dirancang menggunakan metode User Centered  Design yang terdiri dari beberapa tahapan diantaranya Understand Context of Use, Specify  User Requirement, Design Solution, dan Evaluate Against Requirement. Harapannya dengan  menggunakan aplikasi Covid Match pengguna dapat teredukasi seputar covid-19 dapat pula  terhibur dan menikmati pengalaman yang berbeda. <br/> <br/> Pada masa pandemi covid-19  banyaknya kekhawatiran dan ketakutan dapat  menimbulkan stres. Stres diketahui bisa menurunkan imunitas tubuh, sementara yang  dibutuhkan untuk menangkal Covid-19 adalah kekebalan tubuh yang baik. Langkah utama  yang bisa dilakukan untuk mengatasi penyebab stres karena pandemi Covid-19 salah satunya,  masyarakat disarankan untuk membekali diri dengan pengetahuan yang cukup tentang Covid-19 Untuk membantu mengatasi masalah tersebut aplikasi “Covid Match” di rancang <br/> <br/> Task yang di dapat saya berupa memantau dan membantu tim yang diorganisir menggunakan scrum,  melakukan reaserch dalam mengatasi masalah dia angkat dan membuat prototype dari desain UI/UX yang dirancang",
+      "linkWebsite": "",
+      "linkFigma":"https://www.figma.com/file/SqdAxVlOvTkOts5RAQPq08/Covid-Match?node-id=55%3A17",
+      "linkPrototype":"https://www.figma.com/proto/SqdAxVlOvTkOts5RAQPq08/Covid-Match?node-id=120%3A331&scaling=scale-down&page-id=120%3A2&starting-point-node-id=120%3A1918&show-proto-sidebar=1",
+      "gambar": [ 
+        "https://i.postimg.cc/PrY90P8g/Muhamad-Ilham-Habib-2.png",
+        "https://i.postimg.cc/Bvgh4Fqz/Loadscreen.png",
+        "https://i.postimg.cc/jqkFDyz0/level-1.png"
+      ],
+      "stack":[
+        "Figma"
+      ],
+      "tags":[
+        "UI/UX"
+      ]
+    },
+    {
+      "id": 9,
+      "judul": "Pencarian Magang PINTARA",
+      "deskripsi": "Internship atau magang merupakan suatu proses belajar mengajar atau praktek langsung bagi mahasiswa untuk menambah wawasan,pengetahuan,keterampilan dan etika pergaulan khususnya pada lingkungan kerja nyata bagi mahasiswa sebelum mahasiswa tersebut memasuki dunia bisnis yang sebenarnya, sehingga diharapkan setelah mahasiswa lulus bukan hanya menguasai ilmu pemasaran didunia nyata dengan baik dan bermanfaat bagi dirinya maupun bagi perusahaan dimana tempat mahasiswa tersebut bekerja nantinya. <br/> <br/> Metode yang digunakan Dengan melakukan research ke beberapa website magang lalu mendapatkan history rekam jejak pengguna khusunya yang sedang mencari magang hingga mendapatkan pertanyaan yang biasanya sering ditanyakan yang semuanya dengan metode design sprint <br/> <br/> Website yang biasa saya  unakan untuk mencari referensi tempat magang adalah sosial media itu sendiri seperti Instagram dan linkedin. Karena mudah digunakan dan terintegrasi berbagai aktivitas. Walaupun tak dipungkiri banyaknya kekurangan dalam mencari tempat magang di kedua sosial media tersebut. <ul><li>1. Seperti tidak adanya filtering baik dari kategori pekerjaan, lama pekerjaan dan lain-lainnya</li> <li>2. Membuat pencarian dilakukan secara manual dengan menscroll banyaknya postigan.</li> <li>3. Dan akhirnya kolom komentar dijadikan tempat untuk menaruh pertanyaan.</li></ul> Sehingga dari hal tersebut saya mendefinisikan dalam kerangka kerja, bentuk low fidelity lalu high fidelity dan prototype. <br/> <br/> Fitur-fitur yang didefinsikan berupa opsi button filter yang akan memfilter <ul><li>1. sub menu divisi sebagai filter divisi yang sesuai pengguna</li> <li>2. sub menu lokasi sebagai lokasi yang diinginkan pengguna dan mengambahkan informasi dapat WFO atau WFH atau harus keduanya,</li> <li>3. sub menu kategori sebagai kategori apa yang mau dipilih seperti part time, magang, full time, dan freelancer</li> <li>4. sub menu durasi lama waktu kerjaan yang pengguna kerjakan.</li> <li>5. Selain itu pengguna dapat melamar karir jika pengguna login terlebih dahulu. lalu informasi mengenai paid dan unpaid dibuat juga tetapi di letakan di detail karir tidak disatukan dalam button filter, karena saya rasa paid dan unpaid bisanya  dibicarakan ketika interview.</li></ul> ",
+      "linkWebsite": "",
+      "linkFigma":"https://www.figma.com/file/Ne4liSRMmo6JYCFEnnkH4p/Kampus-Indonesia?node-id=66%3A101",
+      "linkPrototype":"https://www.figma.com/proto/Ne4liSRMmo6JYCFEnnkH4p/Kampus-Indonesia?node-id=76%3A333&scaling=scale-down-width&page-id=66%3A101&starting-point-node-id=76%3A40",
+      "gambar": [ 
+        "https://i.postimg.cc/Dy1H8VNG/Lowongan-Karir-High-3.png",
+        "https://i.postimg.cc/g2d5hS9T/Laman-Karir-detail-High.png",
+        "https://i.postimg.cc/FRm7XXwx/sertifikat.png"
+      ],
+      "stack":[
+        "Figma"
+      ],
+      "tags":[
+        "UI/UX"
+      ]
+    },
+    {
+      "id": 10,
+      "judul": "Homepage Startup LatihID",
+      "deskripsi": "Salah satu study case yang diberikan untuk selalu berusaha meningkatkan pelayanan dan product-nya agar selalu dapat memberikan pengalaman terbaik pengguna. ",
+      "linkWebsite": "",
+      "linkFigma":"https://www.figma.com/file/5Ch2OKmylO6FHsq67iSWIz/Study-Case-1-LatihID?node-id=0%3A1",
+      "linkPrototype":"https://www.figma.com/proto/5Ch2OKmylO6FHsq67iSWIz/Study-Case-1-LatihID?node-id=62%3A935&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=62%3A935",
+      "gambar": [ 
+        "https://i.postimg.cc/ydHxFCPZ/Ayo-Gabung.png",
+        "https://i.postimg.cc/gJHJstSB/Darkmode3.png",
+        ""
+      ],
+      "stack":[
+        "Figma"
+      ],
+      "tags":[
+        "UI/UX"
+      ]
+    },
+    {
+      "id": 11,
+      "judul": "Yuforia",
+      "deskripsi": "Yuforia merupakan sebuah wadah berkarya dan berkreasi bagi penikmat dan pekerja seni. Yuforia miliki lima fitur yang ditawarkan yaitu  rekomendasi seni yang sesuai, virtual konser, virtual seni, komunitas, dan donasi. <br/> <br/> Yuforia hadir sebagai alternatif menjawab permasalahan mengenai pekerja seni yang tidak dapat mengadakan suatu kegiatan secara langsung karena larangan untuk berkumpul pada masa PSBB dan penikmat seni yang tidak dapat melihat seni secara langsung. <br/> </br> Metode yang digunakan yaitu User-Centered Design (UCD) dimulai dari plan, reaserch, Design, Adapt, dan Measure. Hasil akhir berupa high fidelity yang selanjutnya di demokan dalam bentuk prototype. <br/> <br/> Task yang di dapat saya berupa memantau dan membantu tim yang diorganisir dengan report pekanan, membantu melakukan reaserch dan membantu dalam merancang UI/UX",
+      "linkWebsite": "",
+      "linkFigma":"https://www.figma.com/file/oHCbKTJK5Hj2BRXwb8szJh/Behind-The-Scene---Gemastik-(KOnfig)?node-id=0%3A1",
+      "linkPrototype":"https://drive.google.com/file/d/1KfApjojA98ufP4buDdGew-kIqTvSuIHr/view?usp=sharing",
+      "gambar": [ 
+        "https://i.postimg.cc/d33qNLCz/gemastik.png",
+        "https://i.postimg.cc/gJGjDtjB/Tim-KOnfig-Yuforia.jpg",
+        "https://i.postimg.cc/Pr8M0Kd5/Virtual-concert-pencarian.png"
+      ],
+      "stack":[
+        "Figma"
+      ],
+      "tags":[
+        "Project Manager", "UI/UX"
+      ]
+    },
+    {
+      "id": 12,
+      "judul": "Microinteraction",
+      "deskripsi": "Pelatihan / Course di Website Informatikawan",
+      "linkWebsite": "",
+      "linkFigma":"https://www.figma.com/file/RF9UihZGERBwa34nYYPkaH/Microinteraction?node-id=23%3A136",
+      "linkPrototype":"https://www.figma.com/proto/RF9UihZGERBwa34nYYPkaH/Microinteraction?node-id=44%3A82&scaling=min-zoom&page-id=44%3A20&starting-point-node-id=44%3A21",
+      "gambar": [ 
+        "https://i.postimg.cc/m2P0TKkF/micro.png",
+        "https://i.postimg.cc/hvLMG8k6/on-boarding-3.png",
+        ""
+      ],
+      "stack":[
+        "Figma"
+      ],
+      "tags":[
+        "UI/UX"
+      ]
+    },
+    {
+      "id": 13,
+      "judul": "Echo ",
+      "deskripsi": "Echo hadir untuk merespon perubahan prilaku masyakarat selama covid-19 dalam hal masak-memasak, seperti <ul> <li>1. Memfasilitasi kebutuhan bahan baku tanpa keluar rumah dan segera diantar</li> <li>2. Mengedukasi para pendatang baru di dunia memasak dengan berbagai resep dan video tutorial yang sekaligus menghibur</li> <li>3. Chat koki sebagai fitur interface saat kebingungan memasak</li> <li>4. Membantu para pemilik toko dan produsen untuk mendistribusikan barangnya kepada konsumen</li></ul> <br/> <br/> Hal yang berbeda dari echo seperti <ul><li>1. Fitur Nearby</li> <li>2. Titik gps tedekat dari konsumen</li> <li>3. Mapping</li></ul> ",
+      "linkWebsite": "",
+      "linkFigma":"https://www.figma.com/file/hfsjP10EPSUuR1vBram339/EchoApp---Startup-Weekend?node-id=0%3A1",
+      "linkPrototype":"https://www.figma.com/proto/hfsjP10EPSUuR1vBram339/EchoApp---Startup-Weekend?node-id=2%3A0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A0",
+      "gambar": [ 
+        "https://i.postimg.cc/HkDzyNYK/eco.jpg",
+        "https://i.postimg.cc/V61D6q03/X-2.png",
+        ""
+      ],
+      "stack":[
+        "Figma"
+      ],
+      "tags":[
+        "UI/UX"
+      ]
+    },
+    {
+      "id": 14,
+      "judul": "IDu",
+      "deskripsi": "“IDu“ yang merupakan singkatan  dari Bingo dan Ular Tangga. Secara umum. Tujuan dari desain aplikasi ini adalah  untuk mengembangkan game ular tangga dan bingo sebagai permainan yang  diminati kembali. Selain itu, Desain aplikasi game ini juga bukan hanya sekadar  game, melainkan terdapat edukasi yang terselubung terutama mencakup tema  “Menjaga Api Kehidupan dan Optimisme dalam menghadapi Pandemi Global  Covid-19” <br/> <br/> Game Ular Tangga dan Bingo ini termasuk permainan yang kuno, tapi  dengan adanya pembaharauan desain game yang lebih sederhana dan mudah  dipahami, serta penambahan aturan main pada game ini, membuat game tersebut  seperti hidup kembali dan diharapkan menjadi game yang disukai oleh anak-anak. <br/> <br/> Task yang di dapat saya berupa memantau dan membantu tim yang diorganisir dengan report pekanan, membantu dalam merancang UI/UX hingga prototype ",
+      "linkWebsite": "",
+      "linkFigma":"https://www.figma.com/file/oRBvmfglMRTu8U1b3Zi2wG/Lomba?node-id=0%3A1",
+      "linkPrototype":"https://www.figma.com/proto/oRBvmfglMRTu8U1b3Zi2wG/Lomba?node-id=41%3A50&scaling=scale-down&page-id=0%3A1&starting-point-node-id=9%3A2",
+      "gambar": [ 
+        "https://i.postimg.cc/HLb2x1zN/Animasi-loading3.png",
+        "https://i.postimg.cc/B6sCP7wn/Menu.png",
+        "https://i.postimg.cc/RFRL71jQ/Bingo-1.png"
+      ],
+      "stack":[
+        "Figma"
+      ],
+      "tags":[
+        "Project Manager","UI/UX"
+      ]
+    }
+  ]
 }
